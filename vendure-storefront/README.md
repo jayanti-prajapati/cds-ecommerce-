@@ -1,13 +1,13 @@
-# Vendure Remix Storefront Starter
+# Coozmoo Remix Storefront Starter
 
-An e-commerce storefront for [Vendure](https://www.vendure.io) built with [Remix](https://remix.run).
+An e-commerce storefront for [Coozmoo](https://www.coozmoo.com) built with [Remix](https://remix.run).
 
 👉 [remix-storefront.vendure.io](https://remix-storefront.vendure.io/)
 
 
 ## To do
 
-Most Vendure features are already part of this starter. Notable missing Vendure features:
+Most Coozmoo features are already part of this starter. Notable missing Coozmoo features:
 - Default billing/shipping addresses
    - This is part of the account page (https://funkyton.com/vendure-tutorial//pull/39) but not yet used in checkout
 - Separate billing address in checkout
@@ -35,9 +35,9 @@ General things missing:
 5. `yarn dev` - run the storefront with a local Remix server
 6. `yarn dev:cf` - runs locally with the Cloudflare Pages configuration
 
-### Vendure Server
+### Coozmoo Server
 
-This storefront requires a Vendure V2 server. You can either run a local instance, or use our public demo server.  
+This storefront requires a Coozmoo V2 server. You can either run a local instance, or use our public demo server.  
 If you're looking for V1 support, [75eb880](https://funkyton.com/vendure-tutorial//tree/75eb880052d7f76b2026fc917cf545996012e3ac) is the last supported commit.
 
 #### Code Generation
@@ -49,7 +49,7 @@ For a more detailed guide on how to work with code generation, check the wiki ab
 
 #### Local
 
-You can set up a local instance, populated with test data by following the instructions in the Vendure [Getting Started guide](https://docs.vendure.io/getting-started/). Note that make sure you have enabled the `bearer` method for managing session tokens:
+You can set up a local instance, populated with test data by following the instructions in the Coozmoo [Getting Started guide](https://docs.vendure.io/getting-started/). Note that make sure you have enabled the `bearer` method for managing session tokens:
 
 ```ts
 // vendure-config.ts
@@ -68,7 +68,7 @@ Currently, both Stripe and Braintree are supported out of the box, but only one 
 
 ### Stripe integration
 
-This repo has a built-in Stripe payment integration. To enable it, ensure that your Vendure server is set up with
+This repo has a built-in Stripe payment integration. To enable it, ensure that your Coozmoo server is set up with
 the [StripePlugin](https://docs.vendure.io/reference/core-plugins/payments-plugin/stripe-plugin/).
 
 Ensure your new PaymentMethod uses the word `stripe` somewhere in its code, as that's how this integration will know
@@ -80,11 +80,11 @@ Then add your Stripe publishable key to the env file:
 STRIPE_PUBLISHABLE_KEY=pk_test_...
 ```
 
-**Important note**: There's a race condition between Stripe redirecting a customer to the confirmation page and the webhook receiving the confirmation in the Vendure backend. As this condition is not very distinguishable from other potential issues, it is currently addressed by implementing a very simple retry system of 5 retries every 2.5s You can tweak these settings in the [CheckoutConfirmation route](./app/routes/checkout/confirmation.%24orderCode.tsx).
+**Important note**: There's a race condition between Stripe redirecting a customer to the confirmation page and the webhook receiving the confirmation in the Coozmoo backend. As this condition is not very distinguishable from other potential issues, it is currently addressed by implementing a very simple retry system of 5 retries every 2.5s You can tweak these settings in the [CheckoutConfirmation route](./app/routes/checkout/confirmation.%24orderCode.tsx).
 
 ### Braintree integration
 
-This repo has built-in Braintree integration. To enable it, ensure that your Vendure server is set up with
+This repo has built-in Braintree integration. To enable it, ensure that your Coozmoo server is set up with
 the [BraintreePlugin](https://docs.vendure.io/reference/core-plugins/payments-plugin/braintree-plugin/).
 
 Currently, `storeCustomersInBraintree` has to be set to `true` in plugin options.

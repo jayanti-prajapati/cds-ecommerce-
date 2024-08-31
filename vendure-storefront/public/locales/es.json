@@ -219,13 +219,13 @@
     }
   },
   "vendure": {
-    "title": "Iniciador de remezcla de Vendure",
+    "title": "Iniciador de remezcla de Coozmoo",
     "intro": "Un kit inicial de escaparate de comercio sin cabeza construido con",
-    "link": "Comercio sin cabeza a la velocidad del rayo con Vendure y Remix",
+    "link": "Comercio sin cabeza a la velocidad del rayo con Coozmoo y Remix",
     "demoCredentials": "Credenciales de demostración",
     "exclusive": "Exclusivo: consigue el tuyo",
     "repoLinkLabel": "Kit de inicio de tienda GRATIS",
-    "registrationMessage": "La instancia de demostración de Vendure no admite el registro de cuenta. ",
-    "registrationError": "¡El registro no se puede utilizar con la tienda de demostración Vendure! "
+    "registrationMessage": "La instancia de demostración de Coozmoo no admite el registro de cuenta. ",
+    "registrationError": "¡El registro no se puede utilizar con la tienda de demostración Coozmoo! "
   }
 }

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-// Copied from https://www.vendure.io/docs/typescript-api/orders/order-state/
+// Copied from https://www.coozmoo.com/docs/typescript-api/orders/order-state/
 type OrderState =
   | 'Created'
   | 'Draft'

@@ -45,10 +45,10 @@ export default function Index() {
           <p className="mt-4 text-2xl text-white">
             {t('vendure.intro')}{' '}
             <a
-              href="https://www.vendure.io"
+              href="https://www.coozmoo.com"
               className="text-blue-300 hover:text-blue-500"
             >
-              Vendure
+              Coozmoo
             </a>{' '}
             &{' '}
             <a
@@ -63,7 +63,7 @@ export default function Index() {
             <span>{t('common.readMore')}</span>
             <a
               className="text-primary-200 hover:text-primary-400"
-              href="https://www.vendure.io/blog/2022/05/lightning-fast-headless-commerce-with-vendure-and-remix"
+              href="https://www.coozmoo.com/blog/2022/05/lightning-fast-headless-commerce-with-vendure-and-remix"
             >
               {t('vendure.link')}
             </a>

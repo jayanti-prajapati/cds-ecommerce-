@@ -219,13 +219,13 @@
     }
   },
   "vendure": {
-    "title": "Vendure Remix inicial",
+    "title": "Coozmoo Remix inicial",
     "intro": "Um kit inicial para vitrine de comércio sem cabeça desenvolvido com",
     "link": "Comércio extremamente rápido e sem cabeça com venda e remix",
     "demoCredentials": "Credenciais de demonstração",
     "exclusive": "Exclusivo: Adquira o seu",
     "repoLinkLabel": "Kit inicial GRATUITO para vitrine",
-    "registrationMessage": "O registro da conta não é compatível com a instância de demonstração do Vendure. ",
-    "registrationError": "O registro não pode ser usado na loja de demonstração Vendure! "
+    "registrationMessage": "O registro da conta não é compatível com a instância de demonstração do Coozmoo. ",
+    "registrationError": "O registro não pode ser usado na loja de demonstração Coozmoo! "
   }
 }

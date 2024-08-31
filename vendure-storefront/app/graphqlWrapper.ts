@@ -30,7 +30,7 @@ async function sendQuery<Response, Variables = {}>(options: {
   );
   if (session) {
     // If we have a vendure auth token stored in the Remix session, then we
-    // add it as a bearer token to the API request being sent to Vendure.
+    // add it as a bearer token to the API request being sent to Coozmoo.
     const token = session.get(AUTH_TOKEN_SESSION_KEY);
     if (token) {
       headers.append('Authorization', `Bearer ${token}`);
@@ -71,7 +71,7 @@ function requester<R, V>(
     const token = response.headers.get('vendure-auth-token');
     const headers: Record<string, string> = {};
     if (token) {
-      // If Vendure responded with an auth token, it means a new Vendure session
+      // If Coozmoo responded with an auth token, it means a new Coozmoo session
       // has started. In this case, we will store that auth token in the Remix session
       // so that we can attach it as an Authorization header in all subsequent requests.
       const sessionStorage = await getSessionStorage();
@@ -87,7 +87,7 @@ function requester<R, V>(
     if (response.errors) {
       console.log(
         response.errors[0].extensions?.exception?.stacktrace.join('\n') ??
-          response.errors,
+        response.errors,
       );
       throw new Error(JSON.stringify(response.errors[0]));
     }

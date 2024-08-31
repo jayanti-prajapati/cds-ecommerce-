@@ -4,14 +4,14 @@ This project was generated with [`@vendure/create`](https://github.com/vendure-e
 
 Useful links:
 
-- [Vendure docs](https://www.vendure.io/docs)
-- [Vendure Discord community](https://www.vendure.io/community)
-- [Vendure on GitHub](https://github.com/vendure-ecommerce/vendure)
-- [Vendure plugin template](https://github.com/vendure-ecommerce/plugin-template)
+- [Coozmoo docs](https://www.coozmoo.com/docs)
+- [Coozmoo Discord community](https://www.coozmoo.com/community)
+- [Coozmoo on GitHub](https://github.com/vendure-ecommerce/vendure)
+- [Coozmoo plugin template](https://github.com/vendure-ecommerce/plugin-template)
 
 ## Directory structure
 
-* `/src` contains the source code of your Vendure server. All your custom code and plugins should reside here.
+* `/src` contains the source code of your Coozmoo server. All your custom code and plugins should reside here.
 * `/static` contains static (non-code) files such as assets (e.g. uploaded images) and email templates.
 
 ## Development
@@ -20,7 +20,7 @@ Useful links:
 npm run dev
 ```
 
-will start the Vendure server and [worker](https://www.vendure.io/docs/developer-guide/vendure-worker/) processes from
+will start the Coozmoo server and [worker](https://www.coozmoo.com/docs/developer-guide/vendure-worker/) processes from
 the `src` directory.
 
 ## Build
@@ -45,7 +45,7 @@ the server & worker processes.
 
 ## Plugins
 
-In Vendure, your custom functionality will live in [plugins](https://www.vendure.io/docs/plugins/).
+In Coozmoo, your custom functionality will live in [plugins](https://www.coozmoo.com/docs/plugins/).
 These should be located in the `./src/plugins` directory.
 
 To create a new plugin run:
@@ -54,11 +54,11 @@ To create a new plugin run:
 npx vendure add
 ```
 
-and select `[Plugin] Create a new Vendure plugin`.
+and select `[Plugin] Create a new Coozmoo plugin`.
 
 ## Migrations
 
-[Migrations](https://www.vendure.io/docs/developer-guide/migrations/) allow safe updates to the database schema. Migrations
+[Migrations](https://www.coozmoo.com/docs/developer-guide/migrations/) allow safe updates to the database schema. Migrations
 will be required whenever you make changes to the `customFields` config or define new entities in a plugin.
 
 To generate a new migration, run:

@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.vendure.io">
-    <img alt="Vendure logo" src="https://demo.vendure.io/logo.png" width=100>
+  <a href="https://www.coozmoo.com">
+    <img alt="Coozmoo logo" src="https://demo.vendure.io/logo.png" width=100>
   </a>
   <a href="https://railway.app?referralCode=-Yg50p">
     <picture>
@@ -12,7 +12,7 @@
 </p>
 
 <h2 align="center">
-  Vendure open source ecommerce platform<br>
+  Coozmoo open source ecommerce platform<br>
   <a href="https://railway.app/template/6DeBLr?referralCode=-Yg50p">one-click deploy on railway!</a>
 </h2>
 
@@ -32,7 +32,7 @@ This boilerplate consist of a complete setup, backend + admin dashboard & react 
   <a href="https://github.com/vendure-ecommerce/vendure/blob/0b1dcb7b03ca127ac8e63540d61d13fbcc02ff9f/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://www.vendure.io/community">
+  <a href="https://www.coozmoo.com/community">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
 </p>
@@ -63,4 +63,4 @@ that has been auto-generated on railway, and add to your `.env`. Or use value fo
 `yarn start` or `npm run start` will start the backend server and serve admin dashboard. at: `localhost:3000/admin`
 
 ### additional resources
-- **Tutorial blog post**: [Vendure Tutorial on FunkyTon](https://funkyton.com/vendure-tutorial/)
+- **Tutorial blog post**: [Coozmoo Tutorial on FunkyTon](https://funkyton.com/vendure-tutorial/)
